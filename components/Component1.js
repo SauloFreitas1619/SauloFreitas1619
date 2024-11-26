@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     left: "42.62%",
     fontSize: FontSize.small_size,
     fontFamily: FontFamily.small,
-    color: Color.primary,
+    color: Color.radial1,
     textAlign: "left",
     position: "absolute",
   },

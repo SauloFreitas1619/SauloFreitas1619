@@ -26,14 +26,14 @@ const Home = () => {
           <Image
             style={styles.icon}
             contentFit="cover"
-            source={require("../assets/setting-1.png")}
+            source={require("../assets/setting-11.png")}
           />
         </Pressable>
         <Component1 />
         <Image
           style={styles.image5Icon}
           contentFit="cover"
-          source={require("../assets/image-51.png")}
+          source={require("../assets/image-511.png")}
         />
       </View>
     </View>

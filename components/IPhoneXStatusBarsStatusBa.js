@@ -22,7 +22,7 @@ const IPhoneXStatusBarsStatusBa = () => {
         <Image
           style={styles.wifiIcon}
           contentFit="cover"
-          source={require("../assets/wifi.png")}
+          source={require("../assets/wifi3.png")}
         />
         <Image
           style={styles.cellularConnectionIcon}
@@ -112,9 +112,9 @@ const styles = StyleSheet.create({
   time: {
     marginTop: -8.35,
     top: "50%",
-    fontSize: FontSize.size_sm,
+    fontSize: FontSize.regular_size,
     fontWeight: "600",
-    fontFamily: FontFamily.sFProText,
+    fontFamily: FontFamily.openSansSemiBold,
     color: Color.black,
     textAlign: "center",
   },

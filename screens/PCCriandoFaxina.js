@@ -6,7 +6,7 @@ import IPhoneXHomeIndicatorHomeI from "../components/IPhoneXHomeIndicatorHomeI";
 import Component from "../components/Component";
 import Home from "../components/Home";
 import GroupComponent from "../components/GroupComponent";
-import { FontFamily, Color, FontSize, Border } from "../GlobalStyles";
+import { Color, FontSize, FontFamily, Border } from "../GlobalStyles";
 
 const PCCriandoFaxina = () => {
   return (
@@ -23,7 +23,7 @@ const PCCriandoFaxina = () => {
       <Image
         style={styles.images1Icon}
         contentFit="cover"
-        source={require("../assets/images-1.png")}
+        source={require("../assets/images-11.png")}
       />
       <Pressable
         style={[styles.instanceParent, styles.groupChildLayout]}
@@ -37,7 +37,7 @@ const PCCriandoFaxina = () => {
         <Image
           style={styles.image5Icon}
           contentFit="cover"
-          source={require("../assets/image-5.png")}
+          source={require("../assets/image-51.png")}
         />
         <Component />
       </Pressable>
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
   },
   pcCriandofaxinaChild: {
     top: 133,
-    backgroundColor: "#e8e8e8",
+    backgroundColor: Color.colorGainsboro_100,
     width: 376,
     height: 753,
     left: 0,
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
   crieUmaNova: {
     top: 495,
     left: 28,
-    fontSize: 24,
+    fontSize: FontSize.size_5xl,
     fontWeight: "600",
     fontFamily: FontFamily.poppinsSemiBold,
     color: Color.colorRoyalblue,
